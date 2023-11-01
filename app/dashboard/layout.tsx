@@ -1,8 +1,18 @@
+"use client";
 import SideNav from "@/app/ui/dashboard/sidenav";
+import { usePathname } from "next/navigation";
+import clsx from "clsx";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+
   return (
-    <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+    <div
+      className={clsx(`flex h-screen flex-col md:flex-row md:overflow-hidden`, {
+        "bg-red-50": pathname === "/dashboard/customers",
+        "bg-blue-50": pathname === "/dashboard/invoices",
+      })}
+    >
       <div className="w-full flex-none md:w-64">
         <SideNav />
       </div>
