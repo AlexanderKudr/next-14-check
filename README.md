@@ -1,5 +1,5 @@
 ## Another "great" experience when checking new version of NextJS
-
+- Aggresive caching still here (1 year passed)
 - Fast refresh is unstable(still)
 - Turbopack unstable
 - Cannot resolve bcrypt or fs modules
