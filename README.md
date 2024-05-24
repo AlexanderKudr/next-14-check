@@ -13,10 +13,10 @@
 - App router is still a huge mess, vision that bring too much cost for the servers
 - Better still use as frontend shell
 
-### TLDR This was the most frustrating experience with NextJS
+#### TLDR This was the most frustrating experience with NextJS
 
-    - Sometimes I feel devs at Vercel rushing too fast, it seems like 2.3+ issues are not enough already, let's     bring more instability
-    - Could not even finish the course, link below, because how ridiculously this unstable was
+  - Sometimes I feel devs at Vercel rushing too fast, it seems like 2.3+ issues are not enough already, let's     bring more instability
+  - Could not even finish the course, link below, because how ridiculously this unstable was
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
 
